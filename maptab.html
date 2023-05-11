@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  type="text/css" rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Mapa Sede</title>
+</head>
+<body>
+    
+    <li class="date">
+        <script type="text/javascript">
+        var meses = new Array ("ENERO","FEBRERO","MARZO","ABRIL","MAYO","JUNIO","JULIO","AGOSTO","SEPTIEMBRE","OCTUBRE","NOVIEMBRE","DICIEMBRE");
+        var diasSemana = new Array("DOMINGO","LUNES","MARTES","MIERCOLES","JUEVES","VIERNES","SABADO");
+        var f=new Date();
+        document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " DE " + meses[f.getMonth()] + " " + f.getFullYear());
+        </script>
+    </li>
+
+    <!--<div class="top"><div id="current_date" class="fecha"></div></div>-->
+
+    <a href="index.html" class="btn-neon">
+        
+        <sp id="span1"></sp>
+        <sp id="span2"></sp>
+        <sp id="span3"></sp>
+        <sp id="span4"></sp>
+
+        BOTON NEON
+    </a>
+
+
+    <footer>
+        <div class="pie">
+            <p>&copy, Programando ando 2022</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+<script>
+    document.getElementById("current_date").innerHTML = Date();
+</script>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  type="text/css" rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Tics</title>
+</head>
+<body>
+    
+    <div class="maindiv">
+        
+        <li class="date">
+            <script type="text/javascript">
+            var meses = new Array ("ENERO","FEBRERO","MARZO","ABRIL","MAYO","JUNIO","JULIO","AGOSTO","SEPTIEMBRE","OCTUBRE","NOVIEMBRE","DICIEMBRE");
+            var diasSemana = new Array("DOMINGO","LUNES","MARTES","MIERCOLES","JUEVES","VIERNES","SABADO");
+            var f=new Date();
+            document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " DE " + meses[f.getMonth()] + " " + f.getFullYear());
+            </script>
+        </li>
+
+        <!--<div class="top"><div id="current_date" class="fecha"></div></div>-->
+        <div class="top1"></div>
+        <div class="izq">
+            <a href="index.html"><img src="images/logoSena.png" alt="" class="senlogo"></a>
+        </div>
+        <div class="der">
+            <img src="images/gov-co.png" alt="" class="mintlogo">
+        </div>
+
+
+        <div class="medio">
+            <div class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="ticstab.html">Tic</a>
+                <a href="gastertab.html">Gastronomía</a>
+                <a href="coffietab.html">Cafetería</a>
+                <a href="agrotab.html">Agronomía</a>
+                <a href="maptab.html">Mapa</a>
+            </div>
+
+            <div class="titulotic">
+            <h1>Módulo TIC SENA Yamboró</h1>
+            <h2>¿Qué son las TICs?</h2>
+            </div>
+            <div class="ptic">
+                <div>
+                <p>  Estas siglas hacen referencia a las Tecnologías de la 
+                     Información y la Comunicación. Engloban aquellas herramientas,
+                     programas, prácticas y recursos tecnológicos que facilitan el 
+                     acceso, la transmisión, procesamiento y gestión de la 
+                     información. <br> <br> Su capacidad y velocidad para 
+                     distribuir información permite a los individuos ubicados 
+                     en diferentes zonas geográficas establecer una comunicación. 
+                     Además, podemos estar más informados y acceder a contenidos 
+                     de forma rápida y sencilla.</p>
+                     <br><br><br>
+
+                     <h2></h2>
+
+                 </div>
+            </div>
+        </div>
+
+        <div class="inferior">
+            <p>
+                <h2>La importancia de las TICs en la educación</h2><br><br>
+
+                 Las TICs proporcionan tanto a profesores, alumnos y padres 
+                 abundantes beneficios que mejorarán y facilitaran sus tareas 
+                 cotidianas. 
+                 <br>
+                 A continuación te mostramos la relevancia de 
+                 implementar TICs en un centro educativo u academia.<br><br>
+                 Fomentan la interacción y la actividad del alumno.<br>
+                 Mejoran la motivación, el interés y las calificaciones de los 
+                 estudiantes.<br>
+                 Benefician a la comunicación entre profesores, alumnos y padres.<br>
+                 Potencian la cooperación entre alumnos.<br>
+                 Mejoran la autonomía y la responsabilidad de los estudiantes <br>
+                 Facilitan las tareas del profesorado.
+
+            </p>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="pie">
+            <p>&copy, Programando ando 2022</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+<script>
+    document.getElementById("current_date").innerHTML = Date();
+</script>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  type="text/css" rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Yamboro</title>
+</head>
+<body>
+    
+    <div class="maindiv">
+
+        <li class="date">
+            <script type="text/javascript">
+            var meses = new Array ("ENERO","FEBRERO","MARZO","ABRIL","MAYO","JUNIO","JULIO","AGOSTO","SEPTIEMBRE","OCTUBRE","NOVIEMBRE","DICIEMBRE");
+            var diasSemana = new Array("DOMINGO","LUNES","MARTES","MIERCOLES","JUEVES","VIERNES","SABADO");
+            var f=new Date();
+            document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " DE " + meses[f.getMonth()] + " " + f.getFullYear());
+            </script>
+        </li>
+
+        <!--<div class="top"><div id="current_date" class="fecha"></div></div>-->
+        
+        <div class="top1"></div>
+        <div class="izq">
+            <a target="_blank" href="https://www.sena.edu.co/es-co/Paginas/default.aspx">
+                <img src="images/logoSena.png" 
+                alt="no se encontró esta imagen" 
+                title="Servicio nacional de aprendizaje SENA" 
+                class="senlogo"></a>
+        </div>
+        <div class="der">
+            <a href="https://coronaviruscolombia.gov.co/Covid19/index.html?utm_source=
+            Presidencia-&utm_medium=CoronavirusOficial&utm_campaign=presidencia&utm_
+            content=coronavirus&utm_term=PaginaPresidenciaCoronavirus">
+                <img src="images/gov-co.png" alt="no se encontró esta imagen" 
+                title="Click aquí para ver el reporte" class="mintlogo"></a>
+        </div>
+
+
+        <div class="medio">
+            <div class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="ticstab.html">Tic</a>
+                <a href="gastertab.html">Gastronomía</a>
+                <a href="coffietab.html">Cafetería</a>
+                <a href="agrotab.html">Agronomía</a>
+                <a href="maptab.html">Mapa</a>
+            </div>
+
+            <div class="slider">
+                <ul>
+                    <li><img src="images/slider/yamboró (41).jpeg" alt="no se encontró esta imagen"></li>
+                    <li><img src="images/slider/yamboró (42).jpeg" alt="no se encontró esta imagen"></li>
+                    <li><img src="images/slider/yamboró (43).jpeg" alt="no se encontró esta imagen"></li>
+                    <li><img src="images/slider/yamboró (44).jpeg" alt="no se encontró esta imagen"></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="inferior"></div>
+
+
+    </div>
+
+    <footer>
+        <div class="pie">
+            <p>&copy, Programando ando 2022</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+<script>
+    document.getElementById("current_date").innerHTML = Date();
+</script>
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  type="text/css" rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Agronomía</title>
+</head>
+<body>
+    
+    <div class="maindiv">
+        
+        <li class="date">
+            <script type="text/javascript">
+            var meses = new Array ("ENERO","FEBRERO","MARZO","ABRIL","MAYO","JUNIO","JULIO","AGOSTO","SEPTIEMBRE","OCTUBRE","NOVIEMBRE","DICIEMBRE");
+            var diasSemana = new Array("DOMINGO","LUNES","MARTES","MIERCOLES","JUEVES","VIERNES","SABADO");
+            var f=new Date();
+            document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " DE " + meses[f.getMonth()] + " " + f.getFullYear());
+            </script>
+        </li>
+
+        <!--<div class="top"><div id="current_date" class="fecha"></div></div>-->
+
+        <div class="top1"></div>
+        <div class="izq">
+            <img src="images/logoSena.png" alt="" class="senlogo">
+        </div>
+        <div class="der">
+            <img src="images/gov-co.png" alt="" class="mintlogo">
+        </div>
+
+
+        <div class="medio">
+            <div class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="ticstab.html">Tic</a>
+                <a href="gastertab.html">Gastronomía</a>
+                <a href="coffietab.html">Cafetería</a>
+                <a href="agrotab.html">Agronomía</a>
+                <a href="maptab.html">Mapa</a>
+            </div>
+
+            <div class="slider">
+                <ul>
+                    <li><img src="images/slider/yamboró (41).jpeg" alt=""></li>
+                    <li><img src="images/slider/yamboró (42).jpeg" alt=""></li>
+                    <li><img src="images/slider/yamboró (43).jpeg" alt=""></li>
+                    <li><img src="images/slider/yamboró (44).jpeg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="inferior">
+            <p>Te damos a bienvenida a los cursos de agricultura en el SENA virtual gratis, destinados a aquellos interesados en aprender todo lo relacionado con las diferentes actividades de tratamiento del suelo y el cultivo de la tierra para la producción y el desarrollo.</p>
+            <img src="images/coffie.jpeg" alt="No fue posible cargar la imagen" title="Café">
+            
+            <div class="agrolist">
+                <h2 class="agrotitulo">Indice</h2>
+                <ul>
+                    <li><a href="#listagro">Lista de cursos virtuales de agricultura SENA Sofiaplus</a></li>
+                    <li>¿Qué son éstos cursos de agricultura Sofiaplus gratis?</li>
+                    <li>¿Cómo inscribirse en los cursos de agricultura?</li>
+                    <li>Cursos de agricultura SENA presencial</li>
+                </ul>
+            </div>
+
+            <h2 id="listagro">Lista completa de cursos virtuales de agricultura SENA Sofiaplus</h2>
+            <p>Los siguientes, son los cursos online de agricultura del SENA disponibles en Sofiaplus en los que puedes inscribirte y certificarte gratis ahora mismo:</p>
+
+            <div class="imgagroc">
+                <div><img src="images/cursoagro1.jpg" alt="no se encontró la imagen">
+                    Prácticas y aplicaciones de agricultura ecológica
+                </div>
+                <div><img src="images/cursoagro2.jpg" alt="no se encontró la imagen">
+                    Obtención de productos maderables del bosque
+                </div>
+                <div><img src="images/cursoagro3.jpg" alt="no se encontró la imagen">
+                    Obtención de productos maderables del bosque
+                </div>
+                <div><img src="images/cursoagro4.jpg" alt="no se encontró la imagen">
+                    Fertilización agrícola ecológica
+                </div>
+            </div>    
+
+        </div>
+
+    </div>
+
+
+
+    <footer>
+        <div class="pie">
+            <p>&copy, Programando ando 2022</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+<script>
+    document.getElementById("current_date").innerHTML = Date();
+</script>
